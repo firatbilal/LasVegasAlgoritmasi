@@ -1,19 +1,19 @@
-# Final Değerlendirme Ödevi - 4: Las Vegas Algoritması 🎯
+# Las Vegas Algoritması 
 
 Bu proje, "Final Değerlendirme Ödevi -4" kapsamında, büyük bir veri seti içerisindeki özel bir elemanın tespit edilmesini amaçlayan **Las Vegas Randomize Algoritması** uygulamasını ve zaman karmaşıklığı analizini içermektedir.
 
-## 📌 Proje Parametreleri ve Sınır Koşulları
+## Proje Parametreleri ve Sınır Koşulları
 
 - **Algoritma Tipi:** Las Vegas Yaklaşımı (Öğrenci no son iki hanesi: `23` - Tek Sayı)
 - **Veri Hacmi ($n$):** $10^5$ Eleman (Öğrenci no son rakamı: `3 < 5`)
 - **Seed Zorunluluğu:** Rastgele sayı üreticisi öğrenci numarası ile beslenmiştir.
 - **Problem Tanımı:** Dizi içinde rastgele seçilen sayının 7'ye tam bölünme (`mod 7 == 0`) koşulunun aranması.
 
-## ⚙️ Las Vegas Algoritmasının Doğası
+## Las Vegas Algoritmasının Doğası
 
 Las Vegas yaklaşımı, **%100 doğru cevabı** bulana kadar çalışır. Algoritma asla hatalı bir sonuç döndürmez ve hedef eleman bulunana kadar döngü kırılamaz. Doğruluktan kesinlikle ödün verilmez, ancak doğru sonucun ne kadar sürede bulunacağı tamamen rastgele bir değişkendir.
 
-## 📊 Analiz ve Sonuçlar
+## Analiz ve Sonuçlar
 
 Algoritma peş peşe **100 kez** çalıştırılmış ve aşağıdaki deneysel veriler elde edilerek teorik hesaplamalarla karşılaştırılmıştır:
 
